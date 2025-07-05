@@ -7,7 +7,6 @@ export default function Projects() {
       <h2>Projects</h2>
       <Holder>
         <ProjectCard>
-          <img src="upmagic.png" alt="Upmagic" />
           <Content>
             <h3>Upmagic</h3>
             <p>
@@ -24,7 +23,6 @@ export default function Projects() {
           <CardActions visit="https://upmagic.vercel.app" source="https://github.com/malay77patra/upmagic" />
         </ProjectCard>
         <ProjectCard>
-          <img src="hotkeys.png" alt="HOTKEYS" />
           <Content>
             <h3>HOTKEYS</h3>
             <p>
@@ -42,7 +40,6 @@ export default function Projects() {
           <CardActions visit="https://hotkeys-iota.vercel.app" source="https://github.com/malay77patra/hotkeys" />
         </ProjectCard>
         <ProjectCard>
-          <img src="physoxy.png" alt="Physoxy" />
           <Content>
             <h3>Physoxy</h3>
             <p>
@@ -60,7 +57,6 @@ export default function Projects() {
           <CardActions visit="https://physoxy.vercel.app" source="https://github.com/malay77patra/Physoxy" />
         </ProjectCard>
         <ProjectCard>
-          <img src="flamecoders.png" alt="Flamecoders" />
           <Content>
             <h3>Flamecoders</h3>
             <p>
@@ -78,7 +74,6 @@ export default function Projects() {
           <CardActions visit="https://flamecoders.vercel.app/" source="https://github.com/malay77patra/flamecoders-frontend" />
         </ProjectCard>
         <ProjectCard>
-          <img src="malay-patrav1.png" alt="Portfolio v1" />
           <Content>
             <h3>Malay Patra, Portfolio v1</h3>
             <p>

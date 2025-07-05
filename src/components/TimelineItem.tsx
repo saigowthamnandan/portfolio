@@ -19,7 +19,6 @@ export default function TimelineItem({
   color = 'var(--clr-accent)',
   bgColor = 'transparent',
   to,
-  reverse,
 }: TimelineItemProps) {
   let IconElement;
   if (typeof icon === 'string') {
