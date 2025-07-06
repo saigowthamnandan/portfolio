@@ -18,12 +18,15 @@ export default function Contact() {
           Have questions? Ping me with a{' '}
           <Link
             target="_blank"
-            className="text-[var(--clr-accent)] text-lg text-bold"
+            className="text-[var(--clr-accent)] md:text-lg text-bold"
             href="https://www.linkedin.com/in/ganta-sai-gowtham-nandan-218b93185">
             Linkedin
           </Link>{' '}
           DM or email at{' '}
-          <Link target="_blank" className="text-[var(--clr-accent)] text-lg text-bold" href="mailto:saigowthamnandanganta0208@gmail.com">
+          <Link
+            target="_blank"
+            className="text-[var(--clr-accent)] text-sm md:text-lg text-bold"
+            href="mailto:saigowthamnandanganta0208@gmail.com">
             saigowthamnandanganta0208@gmail.com
           </Link>
           .

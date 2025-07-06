@@ -38,24 +38,6 @@
     transition-timing-function: cubic-bezier(0, 0, 0, 1.25);
 }
 
-/* dock  */
-
-.dock {
-    padding: 8px;
-    border: 1px solid var(--clr-bdr);
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    z-index: 2;
-    top: 16px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: var(--shadow-1);
-    background-color: var(--clr-comp);
-    gap: 8px;
-}
 
 /* tooltip  */
 
