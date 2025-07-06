@@ -4,8 +4,10 @@ import Link from 'next/link';
 
 export default function Contact() {
   return (
-    <div id="contact" className="px-5 sm:px-10 md:px-20 lg:px-40 flex flex-col justify-center gap-4 md:gap-6 w-full h-full ">
-      <h3 className="w-max self-center px-4 py-1 rounded-xl text-3xl bg-[var(--clr-comp-hover)] border-b-2 border-[var(--clr-accent)]">
+    <div className="px-5 sm:px-10 md:px-20 lg:px-40 flex flex-col justify-center gap-4 md:gap-6 w-full h-full ">
+      <h3
+        id="contact"
+        className="w-max self-center px-4 py-1 rounded-xl text-3xl bg-[var(--clr-comp-hover)] border-b-2 border-[var(--clr-accent)]">
         Contact
       </h3>
       <div className="flex flex-col gap-4 p-3 bg-[var(--clr-comp)] rounded-xl shadow-[2px_2px_2.5px_rgba(0,0,0,0.15)] border-[1px] border-[var(--clr-bdr)]">

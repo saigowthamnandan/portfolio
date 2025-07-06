@@ -5,29 +5,103 @@ import '@/styles/components.css';
 import SvgIcon from './SvgIcon';
 import {IconVariants} from '@/utils/enums';
 import Link from 'next/link';
+import {useEffect, useState} from 'react';
 
+const sections = ['about', 'skills', 'experience', 'education', 'projects', 'contact'];
 const Dock = ({...props}): React.ReactElement => {
+  const [activeSection, setActiveSection] = useState('');
+  useEffect(() => {
+    const handleScroll = () => {
+      let found = '';
+      for (const id of sections) {
+        const el = document.getElementById(id);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= 100 && rect.bottom >= 100) {
+            found = `#${id}`;
+            break;
+          }
+        }
+      }
+      setActiveSection(found);
+    };
+
+    window.addEventListener('scroll', handleScroll, {passive: true});
+    handleScroll(); // Set on mount
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+  function handleSectionClick(section: string) {
+    setActiveSection(section);
+  }
   return (
     <div className="dock" {...props}>
-      <Link href="/" className="flex justify-center items-center w-full h-full">
+      <Link href="#home" className="flex justify-center items-center w-full h-full">
         <SvgIcon alt="Home" name="gowtham-logo" variant={IconVariants.LARGE} className="cursor-pointer w-8 h-8 p-1" />
       </Link>
-      <Link href="#about" className="flex justify-center items-center w-full h-full">
+      <Link
+        onClick={() => {
+          handleSectionClick('#about');
+        }}
+        href="#about"
+        className={`flex justify-center items-center w-full h-full  hover:text-[var(--clr-accent)] ${
+          activeSection === '#about' ? 'text-[var(--clr-accent)] border-b-2 border-[var(--clr-accent)]' : 'text-[var(--clr-text)]'
+        }`}>
         About
       </Link>
-      <Link href="#skills" className="flex justify-center items-center w-full h-full">
+      <Link
+        onClick={() => {
+          handleSectionClick('#skills');
+        }}
+        href="#skills"
+        className={`flex justify-center items-center w-full h-full  hover:text-[var(--clr-accent)] ${
+          activeSection === '#skills' ? 'text-[var(--clr-accent)] border-b-2 border-[var(--clr-accent)]' : 'text-[var(--clr-text)]'
+        }`}>
+        {' '}
         Skills
       </Link>
-      <Link href="#experience" className="flex justify-center items-center w-full h-full">
+      <Link
+        onClick={() => {
+          handleSectionClick('#experience');
+        }}
+        href="#experience"
+        className={`flex justify-center items-center w-full h-full  hover:text-[var(--clr-accent)] ${
+          activeSection === '#experience' ? 'text-[var(--clr-accent)] border-b-2 border-[var(--clr-accent)]' : 'text-[var(--clr-text)]'
+        }`}>
+        {' '}
         Experience
       </Link>
-      <Link href="#education" className="flex justify-center items-center w-full h-full">
+      <Link
+        onClick={() => {
+          handleSectionClick('#education');
+        }}
+        href="#education"
+        className={`flex justify-center items-center w-full h-full  hover:text-[var(--clr-accent)] ${
+          activeSection === '#education' ? 'text-[var(--clr-accent)] border-b-2 border-[var(--clr-accent)]' : 'text-[var(--clr-text)]'
+        }`}>
+        {' '}
         Education
       </Link>
-      <Link href="#projects" className="flex justify-center items-center w-full h-full">
+      <Link
+        onClick={() => {
+          handleSectionClick('#projects');
+        }}
+        href="#projects"
+        className={`flex justify-center items-center w-full h-full  hover:text-[var(--clr-accent)] ${
+          activeSection === '#projects' ? 'text-[var(--clr-accent)] border-b-2 border-[var(--clr-accent)]' : 'text-[var(--clr-text)]'
+        }`}>
+        {' '}
         Projects
       </Link>
-      <Link href="#contact" className="flex justify-center items-center w-full h-full">
+      <Link
+        onClick={() => {
+          handleSectionClick('#contact');
+        }}
+        href="#contact"
+        className={`flex justify-center items-center w-full h-full  hover:text-[var(--clr-accent)] ${
+          activeSection === '#contact' ? 'text-[var(--clr-accent)] border-b-2 border-[var(--clr-accent)]' : 'text-[var(--clr-text)]'
+        }`}>
+        {' '}
         Contact
       </Link>
       <DockButton data-tooltip-content="Linkedin">

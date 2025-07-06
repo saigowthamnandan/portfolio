@@ -14,10 +14,11 @@ export default function Projects() {
             <p>
               A modern, full-featured e-commerce platform with real-time chatbot support. Discover a seamless shopping experience. Buy with
               confidence. It demonstrates proficiency in full-stack development, including user authentication, product management, shopping
-              cart functionality, and integrating a third-party payment gateway.
+              cart functionality, and integrating a third-party payment gateway. The project is a testament to my ability to create dynamic
+              and user-friendly web applications.
             </p>
             <Tags>
-              <Tag hashtag="Nextjs" />
+              <Tag hashtag="Next.js" />
               <Tag hashtag="React" />
               <Tag hashtag="Tailwind Css" />
               <Tag hashtag="TypeScript" />
@@ -29,54 +30,68 @@ export default function Projects() {
         </ProjectCard>
         <ProjectCard>
           <Content>
-            <h3>HOTKEYS</h3>
+            <h3>GN-Tech Future Chat App</h3>
             <p>
-              Learn the keys, kill the 🐀. Master keyboard shortcuts with ease. Discover, learn, and use hotkeys faster than ever. Boost
-              your productivity - No more guessing - No more clicking - Just pure flow.
-            </p>
-            <Tags>
-              <Tag hashtag="Nextjs" />
-              <Tag hashtag="Reactjs" />
-              <Tag hashtag="shadcn/ui" />
-              <Tag hashtag="MagicUI" />
-              <Tag hashtag="TailwindCSS" />
-            </Tags>
-          </Content>
-          <CardActions visit="https://hotkeys-iota.vercel.app" source="https://github.com/malay77patra/hotkeys" />
-        </ProjectCard>
-        <ProjectCard>
-          <Content>
-            <h3>Physoxy</h3>
-            <p>
-              A full-stack, production-ready web app with secure JWT authentication, role-based access, and user subscriptions. Features a
-              decoupled architecture, email verification, theme support, and admin tools—all and many more.
+              A real-time full stack chat application with a modern UI, built using React, Vite and Tailwind CSS. Using Express, Socket.io,
+              JWT and MongoDB .It features user authentication, message encryption, rooms based messaging and a responsive design for
+              seamless communication across devices.
             </p>
             <Tags>
               <Tag hashtag="React" />
-              <Tag hashtag="Mongodb" />
-              <Tag hashtag="Express js" />
-              <Tag hashtag="Tailwind Css" />
-              <Tag hashtag="daisy UI" />
+              <Tag hashtag="Vite" />
+              <Tag hashtag="Tailwind CSS" />
+              <Tag hashtag="TypeScript" />
+              <Tag hashtag="Socket.io" />
+              <Tag hashtag="Express.js" />
+              <Tag hashtag="MongoDB" />
+              <Tag hashtag="JWT" />
             </Tags>
           </Content>
-          <CardActions visit="https://physoxy.vercel.app" source="https://github.com/malay77patra/Physoxy" />
+          <div className="flex gap-2">
+            <CardActions source="https://github.com/saigowthamnandan/chat-app-client" tag="Client" />
+            <CardActions source="https://github.com/saigowthamnandan/chat-app-server" tag="Server" />
+          </div>
         </ProjectCard>
         <ProjectCard>
           <Content>
-            <h3>Flamecoders</h3>
+            <h3>SSO Authentication App with NextJS and NodeJS backend</h3>
+            <p>
+              Developed a centralized SSO solution for unified authentication across web applications. Created functional tools like
+              ticketing, timesheets, task-manager and invoicing using NextJS. Standardized codebases with linting, formatting, and testing
+              tools. Established boilerplates for React, NextJS, and React Native to streamline development.
+            </p>
+            <Tags>
+              <Tag hashtag="Next.js" />
+              <Tag hashtag="React" />
+              <Tag hashtag="Node.js" />
+              <Tag hashtag="Koa.js" />
+              <Tag hashtag="TailwindCSS" />
+              <Tag hashtag="TypeScript" />
+              <Tag hashtag="MongoDB" />
+              <Tag hashtag="OAuth2" />
+              <Tag hashtag="JWT" />
+              <Tag hashtag="AWS" />
+              <Tag hashtag="Cypress" />
+            </Tags>
+          </Content>
+        </ProjectCard>
+        <ProjectCard>
+          <Content>
+            <h3>GN-Editor</h3>
             <p>
               A full-stack article platform with a rich markdown editor, theme support, and secure JWT-based auth. Designed with scalable,
               decoupled architecture and production-grade structure for seamless writing, deployment, and user experience.
             </p>
             <Tags>
+              <Tag hashtag="Next.js" />
+              <Tag hashtag="TypeScript" />
               <Tag hashtag="React" />
+              <Tag hashtag="React Markdown" />
               <Tag hashtag="Mongodb" />
               <Tag hashtag="Express js" />
               <Tag hashtag="Tailwind Css" />
-              <Tag hashtag="daisy UI" />
             </Tags>
           </Content>
-          <CardActions visit="https://flamecoders.vercel.app/" source="https://github.com/malay77patra/flamecoders-frontend" />
         </ProjectCard>
         <ProjectCard>
           <Content>

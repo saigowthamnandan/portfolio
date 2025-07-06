@@ -22,14 +22,14 @@ function Tag({hashtag}: {hashtag: string}) {
   return <span className="project-card-tag">{hashtag}</span>;
 }
 
-function CardActions({visit, source}: {visit?: string; source?: string}) {
+function CardActions({visit, source, tag}: {visit?: string; source?: string; tag?: string}) {
   return (
     <div className="project-card-actions">
       {visit && (
         <a href={visit} target="_blank">
           <Button>
             <SvgIcon name={'goto'} alt="goto" />
-            Visit
+            Visit {tag && tag}
           </Button>
         </a>
       )}
@@ -37,7 +37,7 @@ function CardActions({visit, source}: {visit?: string; source?: string}) {
         <a href={source} target="_blank">
           <Button>
             <SvgIcon name={'github'} alt="Github" />
-            Source
+            Source {tag && tag}
           </Button>
         </a>
       )}

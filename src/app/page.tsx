@@ -12,7 +12,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-8 w-full h-full">
+    <div id="home" className="flex flex-col gap-8 w-full h-full">
       <Hero />
       <div className="flex flex-col gap-12 w-full h-full relative top-3/4 left-0">
         <About />
