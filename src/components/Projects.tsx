@@ -3,24 +3,29 @@ import ProjectCard, {Holder, Content, Tags, Tag, CardActions} from './ProjectCar
 
 export default function Projects() {
   return (
-    <div className="section projects-section">
-      <h2>Projects</h2>
+    <div id="projects" className="px-5 sm:px-10 md:px-20 lg:px-40 flex flex-col justify-center gap-4 md:gap-6 w-full h-full ">
+      <h3 className="w-max self-center px-4 py-1 rounded-xl text-3xl bg-[var(--clr-comp-hover)] border-b-2 border-[var(--clr-accent)]">
+        Projects
+      </h3>
       <Holder>
         <ProjectCard>
           <Content>
-            <h3>Upmagic</h3>
+            <h3>Come-And-Buy</h3>
             <p>
-              An AI-powered Upwork proposal generator that creates compelling proposals with just one click. Built using the secret
-              strategies and proven techniques of top-rated freelancers to help you land more jobs and stand out from the competition.
+              A modern, full-featured e-commerce platform with real-time chatbot support. Discover a seamless shopping experience. Buy with
+              confidence. It demonstrates proficiency in full-stack development, including user authentication, product management, shopping
+              cart functionality, and integrating a third-party payment gateway.
             </p>
             <Tags>
-              <Tag hashtag="React" />
-              <Tag hashtag="GenAI" />
               <Tag hashtag="Nextjs" />
+              <Tag hashtag="React" />
               <Tag hashtag="Tailwind Css" />
+              <Tag hashtag="TypeScript" />
+              <Tag hashtag="MongoDB" />
+              <Tag hashtag="Clerk" />
             </Tags>
           </Content>
-          <CardActions visit="https://upmagic.vercel.app" source="https://github.com/malay77patra/upmagic" />
+          <CardActions source="https://github.com/saigowthamnandan/Come-And-Buy" />
         </ProjectCard>
         <ProjectCard>
           <Content>
@@ -75,18 +80,20 @@ export default function Projects() {
         </ProjectCard>
         <ProjectCard>
           <Content>
-            <h3>Malay Patra, Portfolio v1</h3>
+            <h3>Sai Gowtham Nandan Ganta, Portfolio</h3>
             <p>
-              This is the first version of my personal portfolio website. It showcases my skills, projects, and experiences as a web
-              developer. The portfolio is designed to be visually appealing and easy to navigate, providing a detailed introduction about
-              myself.
+              This is my personal portfolio website. It showcases my skills, projects, and experiences as a web developer. The portfolio is
+              designed to be visually appealing and easy to navigate, providing a detailed introduction about myself.
             </p>
             <Tags>
+              <Tag hashtag="Nextjs" />
+              <Tag hashtag="TypeScript" />
+              <Tag hashtag="Tailwind CSS" />
               <Tag hashtag="React" />
-              <Tag hashtag="React-Scroll" />
+              <Tag hashtag="React-tsparticles" />
             </Tags>
           </Content>
-          <CardActions visit="https://malaypatra.vercel.app/" source="https://github.com/malay77patra/portfolio" />
+          <CardActions source="https://github.com/saigowthamnandan/portfolio" />
         </ProjectCard>
       </Holder>
     </div>

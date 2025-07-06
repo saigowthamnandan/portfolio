@@ -47,6 +47,7 @@ export default function About() {
             target="_blank">
             <SvgIcon alt="resume" name="pdf" variant={IconVariants.SMALL} className="flex items-center" />
             <div>Resume</div>
+            <SvgIcon alt="german" name="germany" variant={IconVariants.MEDIUM} className="flex items-center" />
             <div className="text-[var(--clr-accent)] bg-white rounded-md p-1 text-xs">DE</div>
           </Link>
           <Link
@@ -55,6 +56,7 @@ export default function About() {
             target="_blank">
             <SvgIcon alt="resume" name="pdf" variant={IconVariants.SMALL} className="flex items-center" />
             <div>Resume</div>
+            <SvgIcon alt="english" name="uk" variant={IconVariants.MEDIUM} className="flex items-center" />
             <div className="text-[var(--clr-accent)] bg-white rounded-md p-1 text-xs">EN</div>
           </Link>
         </div>

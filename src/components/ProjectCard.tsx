@@ -28,7 +28,7 @@ function CardActions({visit, source}: {visit?: string; source?: string}) {
       {visit && (
         <a href={visit} target="_blank">
           <Button>
-            <SvgIcon name={'github'} alt="Github" />
+            <SvgIcon name={'goto'} alt="goto" />
             Visit
           </Button>
         </a>
@@ -36,7 +36,7 @@ function CardActions({visit, source}: {visit?: string; source?: string}) {
       {source && (
         <a href={source} target="_blank">
           <Button>
-            <SvgIcon name={'goto'} alt="goto" />
+            <SvgIcon name={'github'} alt="Github" />
             Source
           </Button>
         </a>

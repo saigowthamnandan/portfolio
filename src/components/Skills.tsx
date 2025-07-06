@@ -1,4 +1,4 @@
-import SkillCard from './SkillCard';
+import SkillCard from './Card';
 
 export default function Skills() {
   return (

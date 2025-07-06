@@ -7,7 +7,7 @@ export default function Card({
   hcolor = 'var(--clr-accent)',
 }: {
   heading: string;
-  skills: {name: string; icon: string; type?: string}[];
+  skills: {name: string; icon: string; type?: string; customIcon?: React.ReactNode}[];
   hcolor?: string;
 }) {
   return (
@@ -30,7 +30,8 @@ export default function Card({
       <ul className="skill-list">
         {skills.map((skill, index) => (
           <li key={index}>
-            {skill.icon && (
+            {skill.customIcon && skill.customIcon}
+            {!skill.customIcon && skill.icon && (
               <Image
                 className="skill-icon"
                 loading="lazy"
