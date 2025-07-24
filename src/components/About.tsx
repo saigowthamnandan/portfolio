@@ -12,8 +12,8 @@ export default function About() {
             complex, secure, scalable web and native applications.
           </li>
           <li>
-            <span className="font-bold text-[var(--clr-accent)]">Proficient</span> in JavaScript, TypeScript, React, Angular, Vue, Next.js,
-            Node.js, Express.js, Nest.js, .Net, Pyhton, Java, PHP, MongoDB, MS SQL, and more.
+            <span className="font-bold text-[var(--clr-accent)]">Proficient</span> in JavaScript, TypeScript, React, Angular, Vue.js, Next.js,
+            Node.js, Express.js, Nest.js, Python, .Net, Java, PHP, MongoDB, MS SQL, and more.
           </li>
           <li>
             <span className="font-bold text-[var(--clr-accent)]">Experienced</span> in working with cloud platforms like{' '}

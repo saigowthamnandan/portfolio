@@ -14,7 +14,7 @@ export default function Experience() {
         <h3 className="text-2xl text-[var(--clr-accent4)]">Career Highlights</h3>
         <ul className="list-disc px-3">
           <li>
-            Developed over <span className="font-bold text-[var(--clr-accent)]">20+</span> end-to-end responsive web applicationa using
+            Developed over <span className="font-bold text-[var(--clr-accent)]">20+</span> end-to-end responsive web applications using
             HTML, CSS, JavaScript, React.js, Angular, Next.js, Node.js, Express.js, .Net and Nest.js enhancing user experience, engagement
             and reducing bounce rate by 30%.
           </li>
