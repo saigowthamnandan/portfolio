@@ -39,6 +39,8 @@ import {
   siNodedotjs,
   siBootstrap,
   siFigma,
+  siFastapi,
+  siPostgresql,
 } from 'simple-icons';
 import {ThemeContext} from './ThemeContext';
 
@@ -80,6 +82,8 @@ const cloudIcons = [
   siMysql,
   siRedis,
   siStorybook,
+  siFastapi,
+  siPostgresql,
 ];
 
 const IconCloud = () => {

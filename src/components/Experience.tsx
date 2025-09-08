@@ -15,8 +15,8 @@ export default function Experience() {
         <ul className="list-disc px-3">
           <li>
             Developed over <span className="font-bold text-[var(--clr-accent)]">20+</span> end-to-end responsive web applications using
-            HTML, CSS, JavaScript, React.js, Angular, Next.js, Node.js, Express.js, .Net and Nest.js enhancing user experience, engagement
-            and reducing bounce rate by 30%.
+            HTML, CSS, JavaScript, React.js, Angular, Next.js, Node.js, Express.js, FastAPI, and Nest.js enhancing user experience,
+            engagement and reducing bounce rate by 30%.
           </li>
           <li>
             Optimized MongoDB Atlas for <span className="font-bold text-[var(--clr-accent)]">4x</span> global writes and sharding for data
@@ -69,7 +69,7 @@ export default function Experience() {
               </TimelineItem>
               <TimelineItem icon={'fiverr'} color="#1dbf73">
                 <h4>Freelance Web Developer | Fiverr | Remote</h4>
-                <TimeStamp stamp="Nov 2020 - Dev 2021" />
+                <TimeStamp stamp="Nov 2020 - Dec 2021" />
                 <p>
                   As a freelancer, I have worked on a variety of projects, including web development, mobile app development, and graphic
                   design. I have experience working with clients from different parts of the world, and I have developed a strong

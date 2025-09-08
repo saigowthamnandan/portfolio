@@ -10,6 +10,32 @@ export default function Projects() {
       <Holder>
         <ProjectCard>
           <Content>
+            <h3>EV Fleet Dashboard</h3>
+            <p>
+              A comprehensive dashboard for managing and monitoring electric vehicle fleets. It features real-time tracking, telemetry data,
+              analytics, and reporting tools to optimize fleet performance and efficiency. This project includes alert notifications, live
+              charts, multi-language support, and a user-friendly interface. Built with a focus on user experience and data visualization.
+            </p>
+            <Tags>
+              <Tag hashtag="Next.js" />
+              <Tag hashtag="React" />
+              <Tag hashtag="Tailwind Css" />
+              <Tag hashtag="TypeScript" />
+              <Tag hashtag="Node.js" />
+              <Tag hashtag="Tom Tom" />
+              <Tag hashtag="Maplibre" />
+              <Tag hashtag="i18next" />
+              <Tag hashtag="Playwright" />
+              <Tag hashtag="PostgreSQL" />
+            </Tags>
+          </Content>
+          <CardActions
+            source="https://github.com/saigowthamnandan/ev-fleet-dashboard"
+            visit="https://ev-fleet-dashboard.vercel.app"
+          />
+        </ProjectCard>
+        <ProjectCard>
+          <Content>
             <h3>Come-And-Buy</h3>
             <p>
               A modern, full-featured e-commerce platform with real-time chatbot support. Discover a seamless shopping experience. Buy with
