@@ -1,4 +1,4 @@
-import ResumeConnect from './ResumeConnect';
+// import ResumeConnect from './ResumeConnect';
 
 export default function About() {
   return (
