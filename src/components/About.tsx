@@ -37,7 +37,7 @@ export default function About() {
             integration.
           </li>
         </ul>
-        <ResumeConnect />
+        {/* <ResumeConnect /> */}
       </div>
     </div>
   );
